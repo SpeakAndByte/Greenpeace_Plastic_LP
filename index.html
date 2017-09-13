@@ -178,11 +178,17 @@
             font-weight:bold;
         }
 
+        .footer
+        {
+            text-align:center;
+            margin-top:30px;
+            padding-left:5%;
+            padding-right:5%;
+        }
+
         ul 
         {
             list-style-image: url('tick.png');
-            /*padding-left:10%;
-            padding-right:10%;*/
             text-align:left;
         }
         
@@ -194,12 +200,34 @@
 
         @media screen and (max-width: 730px)
         {
+            .separatorTriangle
+            {
+                text-align:center;
+                margin-bottom:35px;
+            }
             .panelTop, .panelBot
             {
                 text-align:center;
                 width:95%;
+                margin-bottom:45px;
             }
-            
+            .panelTop
+            {
+                padding-bottom:0px;
+                margin-bottom:0px;
+            }
+            .subtitle
+            {
+                margin-bottom:25px;
+            }
+            .stretch
+            {
+                display:none;
+            }
+            img 
+            {
+                margin-bottom:25px;
+            }
         }
 
         @media screen and (max-width: 420px)
@@ -219,6 +247,10 @@
             ul 
             {
                 padding-left:40px;
+            }
+            .bannerText
+            {
+                padding-top:35px;
             }
             .bannerDonateBtn
             {
@@ -248,7 +280,7 @@
         </div>
         <div class="separator">
             <p style="text-align:center">
-                PLASTIC IS CHOCKING OUR OCEANS.<br/>
+                PLASTIC IS CHOKING OUR OCEANS.<br/>
                 OUR SEA CREATURES ARE DYING.<br/>
                 YOU CAN HELP THEM BREATHE AGAIN.<br/>
             </p>
@@ -296,7 +328,7 @@
                     Decomposing slower than the animal
                     it kills, plastic will survive to kill again.
                 </p>
-                <p class="subtitle" style="margin-bottom:0px;">
+                <p class="subtitle" >
                 <span class="highlighted">YOUR SUPPORT</span><br/>
                 WILL HELP STOP<br/>
                 PLASTIC POLLUTION.
@@ -358,7 +390,7 @@
                     and aren’t filtered out, accumulating
                     to life-threatening levels.
                 </p>
-                <p class="subtitle" style="margin-bottom:0px;">
+                <p class="subtitle">
                     PLEASE HELP<br/>
                     <span class="highlighted">END OCEAN PLASTICS</span>
                     BEFORE IT’S TOO LATE.
@@ -477,7 +509,7 @@
             </p>
             <a class="donateBtn" href="https://www.greenpeace.org.au/donate/ocean-plastics?amt=47&bucket=Oceans-Plastics">DONATE TODAY</a>
         </div>
-        <p style="text-align:center;margin-top:30px;">
+        <p class="footer">
             <img src="endOceanPlastics.png" />
         </p>
     </div>
